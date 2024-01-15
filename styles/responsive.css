@@ -4,6 +4,7 @@
         display: none;
     }
 
+    /* mobile menu styles */
     .menu-icon,
     .mobile-menu {
         display: block;
@@ -11,6 +12,7 @@
         height: 25px;
     }
 
+    /* header styles */
     header {
         margin-top: 5%;
         width: 100%;
@@ -65,4 +67,26 @@
     .find-now-btn {
         max-width: 255px;
     }
+
+    /* popular section styles */
+    main {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .popular-tour-section {
+        flex-direction: column;
+        gap: 25px;
+        width: 100%;
+        margin-top: 25px;
+    }
+
+    .popular-img img {
+        width: 100%;
+    }
+
+
+
+
+
 }
