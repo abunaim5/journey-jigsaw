@@ -450,3 +450,55 @@ main {
     font-size: var(--font-size-32);
     font-weight: 800;
 }
+
+/* footer section styles */
+footer {
+    background-color: rgba(19, 19, 24, 0.05);
+}
+
+.footer-section {
+    /* border: 1px solid tomato; */
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 100px;
+    text-align: center;
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-description {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 16px 0 32px;
+}
+
+.footer-icons {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+
+.footer-icons img {
+    height: 24px;
+    width: 24px;
+}
+
+.footer-section hr {
+    height: 1px;
+    background-color: rgba(19, 19, 24, 0.10);
+    border: none;
+    margin: 50px 0;
+}
+
+.footer-section .copyright {
+    color: #131318;
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 600;
+}

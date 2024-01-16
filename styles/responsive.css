@@ -28,7 +28,8 @@
         gap: 8px;
     }
 
-    nav .logo .icon .logo-icon {
+    nav .logo .icon .logo-icon,
+    .footer-logo .logo .icon .logo-icon {
         width: 35px;
     }
 
@@ -86,42 +87,46 @@
     }
 
     /* why choose us section styles */
-    .why-choose-section{
-        width:100%
+    .why-choose-section {
+        width: 100%
     }
 
 
     /* newsletter section styles */
-    .newsletter{
-        width:100%;
+    .newsletter {
+        width: 100%;
         flex-direction: column;
         justify-content: center;
     }
 
-    .newsletter-img{
-        width:100%;
+    .newsletter-img {
+        width: 100%;
     }
 
-    .newsletter-img img{
-        width:100%;
+    .newsletter-img img {
+        width: 100%;
     }
 
-    .newsletter-img .offer-card{
-        width:60%;
-        right:0px;
-        left:167px;
+    .newsletter-img .offer-card {
+        width: 60%;
+        right: 0px;
+        left: 167px;
         bottom: 75px;
         padding: 15px;
     }
 
-    .offer-card .offer-title{
+    .offer-card .offer-title {
         font-size: 1.25rem;
     }
 
-    .offer-card .web-link{
-        font-size:1rem;
+    .offer-card .web-link {
+        font-size: 1rem;
     }
 
+    /* footer section styles */
+    .footer-section {
+        padding: 35px;
+    }
 
 
 
