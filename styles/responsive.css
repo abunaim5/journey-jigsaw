@@ -90,6 +90,20 @@
         width: 100%;
     }
 
+    /* luxury hotel section styles */
+    .luxury-hotel-container {
+        width: 100%;
+        margin: 25px auto 0;
+    }
+
+    .luxury-img-container {
+        grid-template-columns: 1fr;
+    }
+
+    .luxury-texts .luxury-title {
+        font-size: 2rem;
+    }
+
     /* destination section styles */
     .destination-section {
         width: 100%;
