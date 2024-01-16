@@ -144,6 +144,11 @@
         font-size: 1.7rem;
     }
 
+    .video-container h4{
+        font-size: 1rem;
+        left:10%;
+    }
+
 
     /* newsletter section styles */
     .newsletter {
