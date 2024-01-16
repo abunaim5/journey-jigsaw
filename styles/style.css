@@ -360,6 +360,7 @@ main {
 /* newsletter section styles */
 .newsletter {
     display: flex;
+    align-items: center;
     gap: 24px;
     max-width: 1170px;
     margin: 100px auto;
@@ -419,6 +420,7 @@ main {
 }
 
 .newsletter-img {
+    max-width: 672px;
     position: relative;
     /* border:1px solid blueviolet; */
 }
