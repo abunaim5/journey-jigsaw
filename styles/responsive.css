@@ -16,7 +16,7 @@
     header {
         margin-top: 5%;
         width: 100%;
-        padding: 10px;
+        padding: 15px;
     }
 
     nav {
@@ -72,7 +72,7 @@
     /* popular tour section styles */
     main {
         width: 100%;
-        padding: 10px;
+        padding: 15px;
     }
 
     .popular-tour-section {
@@ -82,6 +82,10 @@
         margin-top: 25px;
     }
 
+    .popular-texts .popular-title {
+        font-size: 2rem;
+    }
+
     .popular-img img {
         width: 100%;
     }
@@ -89,9 +93,12 @@
     /* destination section styles */
     .destination-section {
         width: 100%;
+        margin: 25px auto 0;
     }
 
-    .destination-img-container {}
+    .destination-title {
+        font-size: 2rem;
+    }
 
     .maldive,
     .indonesia,
@@ -105,7 +112,22 @@
 
     /* why choose us section styles */
     .why-choose-section {
-        width: 100%
+        width: 100%;
+        margin: 25px auto 0;
+    }
+
+    .choose-texts .choose-title {
+        font-size: 2rem;
+    }
+
+    /* get lost section styles */
+    .get-lost-container {
+        flex-direction: column;
+        margin: 25px auto 0;
+    }
+
+    .get-lost-texts .get-lost-title {
+        font-size: 1.7rem;
     }
 
 
@@ -114,6 +136,7 @@
         width: 100%;
         flex-direction: column;
         justify-content: center;
+        margin: 25px auto;
     }
 
     .newsletter-img {
@@ -143,6 +166,10 @@
     /* footer section styles */
     .footer-section {
         padding: 35px;
+    }
+
+    .footer-section hr {
+        margin: 25px 0;
     }
 
 

@@ -433,7 +433,7 @@ main {
 .get-lost-container {
     max-width: 1170px;
     display: flex;
-    gap:28px;
+    gap: 28px;
     align-items: center;
     justify-content: space-between;
     /* border: 2px solid tomato; */
@@ -460,6 +460,7 @@ main {
 
 .get-lost-texts ul {
     list-style-position: inside;
+    margin: 24px 0 32px;
 }
 
 .get-lost-texts ul li {
@@ -467,8 +468,7 @@ main {
     font-family: Mulish;
     font-size: 1rem;
     font-weight: 700;
-    line-height: 26px;
-    margin-bottom: 32px;
+    line-height: 25px;
 }
 
 .get-lost-container .video-container {
@@ -481,8 +481,15 @@ main {
     border-radius: 16px;
 }
 
-.video-container h4{
-    position:absolute;
+.video-container h4 {
+    position: absolute;
+    top: 40%;
+    left: 16.5%;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
 }
 
 /* newsletter section styles */
