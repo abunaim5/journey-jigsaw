@@ -474,7 +474,7 @@ main {
 /* deals and discount section styles */
 .discount-section {
     max-width: 1170px;
-    margin: 100px auto;
+    margin: 100px auto 0;
 }
 
 .discount-texts {
@@ -559,12 +559,12 @@ main {
     margin-bottom: 24px;
 }
 
-.second-discount-container{
+.second-discount-container {
     background-image: url('../Images/view-2.png');
     justify-content: left;
 }
 
-.second-discount-card{
+.second-discount-card {
     margin-left: 56px;
 }
 
