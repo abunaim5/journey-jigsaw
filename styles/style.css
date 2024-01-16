@@ -429,6 +429,62 @@ main {
     background-color: rgba(233, 68, 68, 0.05);
 }
 
+/* get lost section styles */
+.get-lost-container {
+    max-width: 1170px;
+    display: flex;
+    gap:28px;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 2px solid tomato; */
+    margin: 100px auto 0;
+}
+
+.get-lost-texts .get-lost-title {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 2.5rem;
+    font-weight: 800;
+    line-height: 55px;
+}
+
+.get-lost-texts .get-lost-description {
+    max-width: 900px;
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 24px 0;
+}
+
+.get-lost-texts ul {
+    list-style-position: inside;
+}
+
+.get-lost-texts ul li {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 26px;
+    margin-bottom: 32px;
+}
+
+.get-lost-container .video-container {
+    /* border: 1px solid blueviolet; */
+    position: relative;
+}
+
+.video-container .video {
+    width: 100%;
+    border-radius: 16px;
+}
+
+.video-container h4{
+    position:absolute;
+}
+
 /* newsletter section styles */
 .newsletter {
     display: flex;
