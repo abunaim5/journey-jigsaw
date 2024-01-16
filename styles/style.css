@@ -244,48 +244,115 @@ main {
 }
 
 .destination-description {
-    color: var(--secondary-color);
+    color: var(--primary-color);
     font-family: Mulish;
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
-    margin-top: 25px;
+    margin: 25px 0 48px;
 }
 
 .destination-img-container {
-    border: 3px solid teal;
+    /* max-width: calc(1170px - 24px); */
+    /* border: 3px solid teal; */
     max-width: 1170px;
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+    grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(3, 1fr);
 }
 
-.destination-img-container img {
-    width: 100%;
-    object-fit: cover;
-}
-
 .maldive {
-    grid-column: 1 /span 3;
-    grid-row: 1 /span 1;
+    min-height: 300px;
+    /* max-width: 573px; */
+    background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/maldive.png');
+    /* border:1px solid blueviolet; */
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    grid-column: 1 /span 6;
+    border-radius: 16px;
+    border-radius: 16px;
 }
 
 .indonesia {
-    grid-column: 3 /span 6;
-    grid-row: 1 /span 1;
+    min-height: 300px;
+    /* max-width: 573px; */
+    background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/indo.png');
+    /* border:1px solid tomato; */
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+    background-size: cover;
+    grid-column: 7 /span 6;
 }
 
 .srilanka {
-    grid-column: 1 /span 5;
-    grid-row: 2 /span 3;
+    min-height: 286px;
+    /* max-width: 374px; */
+    background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/srilanka.png');
+    /* border:1px solid tomato; */
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-position: center;
+    background-position: center;
+    background-size: cover;
+    grid-column: 1 /span 4;
 }
 
-/* .america{
-    grid-column: 4 /span 9;
-} */
+.america {
+    min-height: 286px;
+    /* max-width: 474px; */
+    background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/north-america.png');
+    border-radius: 16px;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+    /* border:1px solid tomato; */
+    grid-column: 5 /span 5;
+}
 
-.hide {
-    display: none;
+.kashmir {
+    min-height: 286px;
+    /* max-width: 274px; */
+    background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/kasmir.png');
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+    background-size: cover;
+    /* border:1px solid tomato; */
+    grid-column: 10 /span 3;
+}
+
+.bangladesh {
+    min-height: 300px;
+    /* max-width: 473px; */
+    background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/bangladesh.png');
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    /* border:1px solid tomato; */
+    grid-column: 1 /span 5;
+}
+
+.bandarban {
+    min-height: 300px;
+    /* max-width: 673px; */
+    background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/bandarban.png');
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    /* border:1px solid tomato; */
+    grid-column: 6 /span 7;
 }
 
 /* why choose section styles */
