@@ -8,8 +8,8 @@
     .menu-icon,
     .mobile-menu {
         display: block;
-        width: 25px;
-        height: 25px;
+        width: 28px;
+        height: 28px;
     }
 
     /* header styles */
@@ -30,11 +30,11 @@
 
     nav .logo .icon .logo-icon,
     .footer-logo .logo .icon .logo-icon {
-        width: 35px;
+        width: 2.5rem;
     }
 
     .nav-title {
-        font-size: var(--font-size-24);
+        font-size: 1.75rem;
     }
 
     .banner-container {
@@ -69,7 +69,7 @@
         max-width: 255px;
     }
 
-    /* popular section styles */
+    /* popular tour section styles */
     main {
         width: 100%;
         padding: 10px;
@@ -84,6 +84,23 @@
 
     .popular-img img {
         width: 100%;
+    }
+
+    /* destination section styles */
+    .destination-section {
+        width: 100%;
+    }
+
+    .destination-img-container {}
+
+    .maldive,
+    .indonesia,
+    .srilanka,
+    .america,
+    .kashmir,
+    .bangladesh,
+    .bandarban {
+        grid-column: 1 /span 12;
     }
 
     /* why choose us section styles */
