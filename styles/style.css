@@ -31,7 +31,7 @@ html {
 }
 
 body {
-    background-color: var(--white-color);
+    background-color: #FFF;
 }
 
 .primary-color {
@@ -71,11 +71,12 @@ nav {
 
 .logo {
     display: flex;
-    align-items: center;
+    align-items: stretch;
     gap: 15px;
 }
 
 .nav-title {
+    /* display: inline-block; */
     color: var(--secondary-color);
     font-family: Mulish;
     font-size: var(--font-size-36);
@@ -111,7 +112,7 @@ nav>ul li a .home {
 
 .menu-icon,
 .mobile-menu {
-    /* mobile menu */
+    /* mobile menu icon */
     display: none;
 }
 
@@ -184,7 +185,9 @@ nav>ul li a .home {
     background-color: var(--orange-color);
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 10px;
+    cursor: pointer;
 }
 
 /* main section styles */
@@ -611,19 +614,19 @@ main {
 }
 
 .get-lost-container .video-container {
-    /* border: 1px solid blueviolet; */
     position: relative;
 }
 
 .video-container .video {
     width: 100%;
-    border-radius: 16px;
+    border-radius: 1rem;
 }
 
 .video-container h4 {
     position: absolute;
     top: 40%;
-    left: 16.5%;
+    left: 30%;
+    transform: translate(-20%, -40%);
     color: #FFF;
     font-family: Mulish;
     font-size: 1.5rem;
@@ -635,11 +638,10 @@ main {
 .newsletter {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 24px;
     max-width: 1170px;
     margin: 100px auto;
-    /* border: 1px solid teal; */
-    /* position: relative; */
 }
 
 .newsletter-input-field {
@@ -693,22 +695,30 @@ main {
     cursor: pointer;
 }
 
-.newsletter-img {
-    max-width: 672px;
+.newsletter-img .mountain-img {
     position: relative;
-    /* border:1px solid blueviolet; */
+    width: 100%;
+    height: 100%;
+}
+
+.newsletter-img .mountain-img img {
+    width: 100%;
+    height: 100%;
+    /* border: 3px solid tomato; */
 }
 
 .newsletter-img .offer-card {
     background-color: #FF5400;
-    width: 50%;
+    /* width: 50%; */
     border-radius: 16px;
     padding: 20px;
     text-align: center;
     position: absolute;
-    bottom: 105px;
-    left: 349px;
-    transform: rotate(-45deg);
+    top: 55%;
+    left: 97%;
+    transform: translate(-97%, 0%) rotate(-30deg);
+    /* border: 2px solid blueviolet; */
+    /* z-index: 1; */
 }
 
 .offer-card .web-link {
@@ -761,6 +771,7 @@ footer {
 .footer-icons img {
     height: 24px;
     width: 24px;
+    cursor: pointer;
 }
 
 .footer-section hr {
